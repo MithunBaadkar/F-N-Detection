@@ -1,4 +1,3 @@
-
 #program - 1 without sentiment
 
 import requests
