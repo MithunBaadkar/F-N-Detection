@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 def fetch_news(url):
     print("1")
-    response = requests.get(url)
+    response = requests.get(url) #sending request to given url
     print(f"Responce status code: {response.status_code}")
     if response.status_code != 200:
         return []
