@@ -59,7 +59,7 @@ def classify_news(headlines, links):
 
 # Main execution
 if __name__ == "__main__":
-    statement = input("Enter the URL or Text: ")
+    statement = input("Enter the URL: ")
     result, links = baadkar_scrape(statement)
 
     if result:
